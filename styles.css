@@ -36,7 +36,7 @@ header {
 section {
     display: inline-block;
     margin-left: 86px;
-    position: absolute; 
+    position: absolute;
 }
 
 img {
@@ -81,5 +81,50 @@ p {
     width: 239px;
     height: 64px;
     cursor: pointer;
-    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        display: none;
+    }
+
+    img {
+        Width: 354px;
+        Height: 317px;
+        Top: -1218px;
+        Left: -1717px;
+        margin: 149px 22px 24px 14px;
+    }
+
+    section {
+        display: block;
+        margin-left: 64px;
+        margin-top: -24px;
+    }
+     
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin-top: 24px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        margin-bottom: 17px;
+        margin-left: 12px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore{
+        margin-left: 8px;
+    }
 }
